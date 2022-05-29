@@ -1,0 +1,29 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.045);
+  margin: 5rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.card__image {
+  width: 4rem;
+  height: 4rem;
+  background-color: #777;
+  border-radius: 1rem;
+  position: absolute;
+  top: -2.5rem;
+}
+
+.card__content {
+  margin: 1rem 0;
+}
+.card__content p {
+  font-size: var(--font-small);
+  color: #999;
+}
+
+.card__footer p {
+  font-size: var(--font-small);
+  color: var(--primary-color);
+}

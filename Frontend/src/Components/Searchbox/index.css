@@ -1,0 +1,17 @@
+.searchbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  box-shadow: 0.1rem 0.1rem 2rem rgba(0, 0, 0, 0.045);
+}
+
+.searchbox input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 2rem 1rem;
+  font-size: var(--font-medium);
+}
